@@ -7,17 +7,14 @@ import org.hibernate.envers.Audited;
 
 @Entity
 @Table(name = "pais")
-@Audited
+
 public class Pais extends BaseEntity {
 	
 	private String nome;
-	
-
 
 	public Pais() {
 		super();
 	}
-	
 
 	public Pais(String nome) {
 		super();
